@@ -1,4 +1,6 @@
-Changes made: Fix validator on token to use \A \z instead of $ and ^ in regex; deprecated use of :conditions for Rails 4 in APN::Device model
+Changes made:
+* Fix validator on token to use \A \z instead of $ and ^ in regex; deprecated use of :conditions for Rails 4 in APN::Device model
+* Deprecated use of :conditions for Rails 4 on APN::Group
 ----
 
 h1. APN on Rails (Apple Push Notifications on Rails)
