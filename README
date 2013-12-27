@@ -1,6 +1,7 @@
 Changes made:
 * Fix validator on token to use \A \z instead of $ and ^ in regex; deprecated use of :conditions for Rails 4 in APN::Device model
 * Deprecated use of :conditions for Rails 4 on APN::Group
+* Added protected_attributes to gem dependencies
 ----
 
 =APN on Rails (Apple Push Notifications on Rails)
